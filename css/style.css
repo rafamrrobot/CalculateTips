@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px
+  
+  }
+
+body{
+    
+    background-image: linear-gradient(100deg, #473D47, #278896 ,#291A26)!important;   
+}
+
+    .main {
+        background-image: linear-gradient(100deg, #080708, #278896 ,#8A7B88)!important;
+        color: hsl(0, 0%, 100%);
+        width: 375px;
+        height: 555px;
+        margin-left: auto;
+        margin-right:auto ;
+        margin-top: 50px;
+        border-radius: 95px ;
+        box-shadow: 3px 5px 5px  #473D47 ;
+
+        }
+
+    div h1{
+        padding: 15px ;
+       
+    }
+
+    .form-group{
+        padding: 2px ;
+        margin:10px;
+        font-size:20px ;
+    }
+
+    .button{
+      
+        border-radius: 300px ;
+        font-weight: bold;
+        font-size: 20px ;
+        background:#291A26;
+        width: 200px ;
+        height: 40px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .button:hover{
+        border-radius: 300px ;
+        font-weight: bold;
+        font-size: 20px ;
+        background:#FE7F2D;
+        width: 200px ;
+        height: 40px;
+        color: hsl(0, 0%, 100%);
+    }
+   
+    footer{
+        text-align: center ;
+        margin-top: 0px ;
+        font-weight: bold;
+        font-size: 10px ;
+    }
+
+    div#total-tip{
+        font-size: 20px;
+        margin-top: 3px ;
+
+    }
+
+    #tip{
+        font-size: 20px;
+        margin-top: 2px ;
+    }
+
+    #each{
+        font-size: 20px;
+        margin-top: 1px ;
+    }
